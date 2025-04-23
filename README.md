@@ -19,11 +19,6 @@ To develop a hybrid model that integrates structured economic indicators and uns
 - Built predictive models combining both types of data
 - Evaluated performance using DM-test, RMSE and cross-validation
 
-## Project Structure
-- `inflation_model.ipynb` — full pipeline: data prep, modeling, evaluation
-- `data/` — sample datasets (mockup or real)
-- `results/` — plots, metrics, exported model
-
 ## Results
 - Best model: **ElasticNet** with macro + LDA features  
 - RMSE on test set: **0.37**
